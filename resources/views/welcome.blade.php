@@ -13,6 +13,13 @@
             background-color: #eae9e9 !important;
         }
     </style>
+    <script type="text/javascript">
+        (function(){
+            window.Laravel = {
+                csrfToken: '{{ csrf_token() }}'
+            };
+        })();
+    </script>
 </head>
 <body>
 <div id="app">

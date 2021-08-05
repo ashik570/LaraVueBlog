@@ -21,6 +21,7 @@
               
               <li><router-link to="/"><i class='fas fa-robot'></i> Dashboard</router-link></li>
               <li><router-link to="tags"><i class='fas fa-robot'></i> Tags</router-link></li>
+              <li><router-link to="category"><i class='fas fa-robot'></i> Category</router-link></li>
 
             </ul>
           </div>
